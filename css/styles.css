@@ -2027,3 +2027,34 @@ hr {
   margin-bottom: -30px;
   margin-top: 20px;
 }
+
+
+
+/*************************
+******* Privacy  CSS ********
+**************************/
+
+h3.title {
+  color: #686868;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  margin: 25px 15px;
+  margin-bottom: 15px;
+  position: relative;
+}
+
+p.paragraph {
+  color: #686868;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  margin: 0 15px;
+  margin-bottom: 16px;
+  position: relative;
+}
+
+ul.privacylist li{
+  list-style-type: disc;
+  color: #686868;
+}
