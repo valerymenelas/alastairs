@@ -24,7 +24,7 @@
 						<div class="panel-group category-products" id="accordian"><!--category-productsr-->
 							<div class="panel panel-default">
 								<div class="panel-heading">
-									<h4 class="panel-title"><a href="art_wall_decor.php">Art & Wall Décor</a></h4>
+									<h4 class="panel-title"><a href="art-wall-decor.php">Art & Wall Décor</a></h4>
 								</div>
 							</div>
 							
@@ -36,7 +36,7 @@
 							</div>
 							<div class="panel panel-default">
 								<div class="panel-heading">
-									<h4 class="panel-title"><a href="rugs_curtains.php">Rugs & Curtains</a></h4>
+									<h4 class="panel-title"><a href="rugs-curtains.php">Rugs & Curtains</a></h4>
 								</div>
 							</div>
 							<div class="panel panel-default">
@@ -71,9 +71,10 @@
 							<div class="product-image-wrapper">
 								<div class="single-products">
 									<div class="productinfo text-center">
-                                    <img src="<?php echo $results['image'];?>" alt="Product" />
+                                    <a href="product-details.php?view=<?php echo $results['productID']; ?>"><img src="<?php echo $results['image'];?>" alt="Product" /></a>
+
                                     <h2>$<?php echo $results['price'];?></h2>
-										<p><?php echo $results['productName'];?></p>
+									<p><a href="product-details.php?view=<?php echo $results['productID']; ?>"><?php echo $results['productName'];?></a></p>
                                     <a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
 									</div>
 								</div>
@@ -96,45 +97,49 @@
 						<div id="recommended-item-carousel" class="carousel slide" data-ride="carousel">
 							<div class="carousel-inner">
 								<div class="item active">	
-									<div class="col-sm-4">
-										<div class="product-image-wrapper">
-											<div class="single-products">
-												<div class="productinfo text-center">
-                                    				<img src="<?php echo $results['image'];?>" alt="Product" />
-                                    				<h2>$<?php echo $results['price'];?></h2>
-													<p><?php echo $results['productName'];?></p>
-													<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
-												</div>
-												
-											</div>
-										</div>
-									</div>
-									<div class="col-sm-4">
-										<div class="product-image-wrapper">
-											<div class="single-products">
-												<div class="productinfo text-center">
-                                    				<img src="<?php echo $results['image'];?>" alt="Product" />
-                                    				<h2>$<?php echo $results['price'];?></h2>
-													<p><?php echo $results['productName'];?></p>
-													<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
-												</div>
 
-											</div>
-										</div>
-									</div>
 									<div class="col-sm-4">
 										<div class="product-image-wrapper">
 											<div class="single-products">
 												<div class="productinfo text-center">
-                                    				<img src="<?php echo $results['image'];?>" alt="Product" />
+                                    				<a href="product-details.php?view=<?php echo $results['productID']; ?>"><img src="<?php echo $results['image'];?>" alt="Product" /></a>
+
                                     				<h2>$<?php echo $results['price'];?></h2>
-													<p><?php echo $results['productName'];?></p>
+													<p><a href="product-details.php?view=<?php echo $results['productID']; ?>"><?php echo $results['productName'];?></a></p>
 													<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
 												</div>
-												
 											</div>
 										</div>
 									</div>
+
+									<div class="col-sm-4">
+										<div class="product-image-wrapper">
+											<div class="single-products">
+												<div class="productinfo text-center">
+                                    				<a href="product-details.php?view=<?php echo $results['productID']; ?>"><img src="<?php echo $results['image'];?>" alt="Product" /></a>
+
+                                    				<h2>$<?php echo $results['price'];?></h2>
+													<p><a href="product-details.php?view=<?php echo $results['productID']; ?>"><?php echo $results['productName'];?></a></p>
+													<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
+												</div>
+											</div>
+										</div>
+									</div>
+
+									<div class="col-sm-4">
+										<div class="product-image-wrapper">
+											<div class="single-products">
+												<div class="productinfo text-center">
+                                    				<a href="product-details.php?view=<?php echo $results['productID']; ?>"><img src="<?php echo $results['image'];?>" alt="Product" /></a>
+
+                                    				<h2>$<?php echo $results['price'];?></h2>
+													<p><a href="product-details.php?view=<?php echo $results['productID']; ?>"><?php echo $results['productName'];?></a></p>
+													<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
+												</div>
+											</div>
+										</div>
+									</div>
+									
 								</div>
 								<div class="item">	
 									<div class="col-sm-4">
