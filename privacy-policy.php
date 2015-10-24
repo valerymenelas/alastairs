@@ -123,12 +123,10 @@
 								<div id="sportswear" class="panel-collapse">
 									<div class="panel-body">
 										<ul>
-											<li><a href="#" class="menu-active">Privacy Policy</a></li>
-											<li><a href="#">Website Terms & Conditions</a></li>
-											<li><a href="#">Copyright & Trademark Notice</a></li>
-											<li><a href="#">Return Policy</a></li>
-											<li><a href="#">Shipping Information</a></li>
-											<li><a href="#">Merchandise Safety/a></li>
+											<li><a href="privacy-policy.php" class="menu-active">Privacy Policy</a></li>
+											<li><a href="return-policy.php">Return Policy</a></li>
+											<li><a href="shipping-information.php">Shipping Information</a></li>
+											<li><a href="tax-policy.php">Tax Policy</a></li>
 										</ul>
 									</div>
 								</div>
@@ -198,6 +196,31 @@
 									<li>For internal business purposes and</li>
 									<li>For purposes disclosed at the time you provide your information or as otherwise set forth in this Privacy Policy.</li>
 								</ul>
+						<h3 class="title">Sharing of Information with Third Parties</h3>
+							<p class="paragraph">We may share your Personal Information, Demographic Information or Usage Irious methods and technologies to collect and/or store Usage Information, such as:</p>	
+								<ul class="privacylist">
+									<li><strong>When You Request We Share With Third Parties.</strong> We may share information with third parties at your request. In the event we do so, all information we disclose will be subject to the privacy policies and practices of such third parties. In addition, the third parties may store, collect or otherwise have access to your information when you interact with their technologies, content or apps on our Site or link to them from our Site. This may include using third-party tools such as Facebook, Twitter, Pinterest or other third-party posting or content sharing tools. We are not responsible for the practices of such third parties and, therefore, you should review such third-party privacy policies prior to interacting with them. </li>
+									<li><strong>Third Parties Providing Services to Pier 1 Imports.</strong> We may use third party service providers to perform certain services, such as: (a) to assist us in e-commerce operations; (b) to manage a database of customer information; (c) hosting the Site; (d) designing and/or operating the Site’s features; (e) tracking the Site’s activities and analytics; (f) enabling us to send you special offers or perform other administrative services; (g) to allow you to participate in live chat on the Site; and (h) other services designed to assist us in maximizing our business potential. We may provide third parties with access to your information to carry out the services they are performing for us. Third-party analytics and other service providers such as Google Analytics may set and access their own technologies on your Device and they may otherwise collect or have access to information about you. These service providers use the technology described above to help us analyze how users use the Site. We are not responsible for those third party technologies or activities arising out of them. However, some third parties may offer you certain choices regarding their practices. </li>
+									<li><strong>To Protect the Rights of Pier 1 Imports and our Users.</strong> We may disclose your Personal Information if we believe in good faith that doing so is necessary or appropriate to: (i) protect or defend the rights, safety or property of Pier 1 Imports or third parties (including through the enforcement of this Policy, our Terms of Use, and other applicable agreements and policies); or (ii) comply with legal and regulatory obligations (e.g., pursuant to law enforcement inquiries, subpoenas or court orders). </li>
+									<li><strong>Affiliates and Business Transfer.</strong> We may share your information with our parent, subsidiaries and affiliates. We also reserve the right to disclose and transfer all such information: (i) to a subsequent owner, co-owner or operator of the Site and/or our Stores; or (ii) in connection with a merger, consolidation, restructuring, the sale of substantially all of our interests and/or assets or other corporate change, including during the course of any due diligence process. </li>
+									<li><strong>Sweepstakes, Contests and Promotions.</strong> We may offer sweepstakes, contests, and other promotions (any, a “Promotion”) through the Site, in the Stores or through one of our social media pages that may require registration. By participating in a Promotion, you are agreeing to official rules that govern that Promotion, which may contain specific requirements of you, including, allowing the sponsor of the Promotion to use your name, voice and likeness in advertising associated with the Promotion. If you choose to enter a Promotion, Personal Information may be disclosed to third parties or the public in connection with the administration of such Promotion, including in connection with winner selection, prize fulfillment, and as required by law or permitted by the Promotion’s official rules, such as on a winner’s list.</li> 
+								</ul>
+						<h3 class="title">Information You Disclose Publicly</h3>
+							<p class="paragraph">We may share your Personal Information, Demographic Information or Usage Irious methods and technologies to collect and/or store Usage Information, such as:</p>	
+								<ul class="privacylist">
+									<li><strong>User Content and Public Information.</strong> The Site may permit you to submit ideas, photographs, videos, audio recordings, questions, comments, suggestions or other content, including Personal Information (collectively, “User Content”), on blogs and message boards and other public forums, as well as in connection with our Site’s product review service and wishlist feature. We or others may store, display, publish, distribute or otherwise use User Content online or offline in any media or format and may or may not attribute the User Content to you. Others may have access to this User Content and may have the ability to share it with third parties. Please note that Pier 1 Imports does not control who will have access to the information that you choose to make public, and cannot ensure that parties who have access to such publicly available information will respect your privacy or keep it secure. We are not responsible for the privacy or security of any information that you make publicly available on the Site or what others do with information you share with them on the Site.  </li>
+								</ul>
+						<h3 class="title">Third-Party Content and Links to Third-Party Sites</h3>
+							<p class="paragraph">The Site may contain content that is supplied by a third party, and those third parties may collect Usage Information and your Device Identifier when pages from the Site are served to you. In addition, when you are on the Site, you may be directed to other services that are operated and controlled by third parties. For example, the giftcertificates.com site used to purchase Pier 1 Imports gift cards online is operated by a third party. We are not responsible for the data collection and privacy practices employed by any of these third parties. For example, if you “click” on a link, the “click” may take you off the Site onto a different site. These other sites may independently collect data about you and may or may not have their own published privacy policies.</p>
+						<h3 class="title">Transfer of Information to the United States</h3>
+							<p class="paragraph">Our Site is operated in the United States and intended for users located in the United States. If you are located outside of the United States, please be aware that information we collect will be transferred to, and processed, stored and used in the United States. The data protection laws in the United States may differ from those of the country in which you are located, and your information may be subject to access requests from governments, courts, or law enforcement in the United States according to laws of the United States. By using the Site or providing us with any information, you consent to the transfer to, and processing, usage, sharing and storage of your information in the United States.</p>
+						<h3 class="title">Security Statement</h3>
+							<p class="paragraph">For your security, our ordering process uses secure socket layer (SSL) software. Your information is encrypted to arrive privately and unaltered, to our server only. </p>
+							<p class="paragraph">If you're still concerned about ordering online, please call us at 1-888-SECURE (555-5555) , Monday through Saturday, 8 AM – 8 PM and Sunday, 9 AM – 7 PM Eastern Time. We will be happy to complete your order over the phone. </p>
+							<p class="paragraph">We incorporate commercially reasonable safeguards to help protect and secure your Personal Information. However, no data transmission over the Internet, mobile networks, wireless transmission or electronic storage of information can be guaranteed 100% secure. As a result, we cannot guarantee or warrant the security of any information you transmit to or from our Site, and you provide us with your information at your own risk.</p>
+						<h3 class="title">Changes to the Privacy Policy</h3>
+							<p class="paragraph">We reserve the right to change this Privacy Policy at any time. Any changes will be effective immediately upon the posting of the revised Privacy Policy and your use of our Site indicates your consent to the privacy policy posted at the time of use.</p>
+
 
 					</div><!--main privacy policy-->
 				</div>
