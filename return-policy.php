@@ -63,7 +63,7 @@
 						<div class="mainmenu pull-left">
 							<ul class="nav navbar-nav collapse navbar-collapse">
 								<li><a href="home.php">Home</a></li>
-								<li class="dropdown"><a href="#" class="active">Shop<i class="fa fa-angle-down"></i></a>
+								<li class="dropdown"><a href="#">Shop<i class="fa fa-angle-down"></i></a>
                                     <ul role="menu" class="sub-menu">
                                         <li><a href="shop.php">Products</a></li>
 										<li><a href="product-details.php">Product Details</a></li> 
@@ -125,7 +125,7 @@
 										<ul>
 											<li><a href="privacy-policy.php">Privacy Policy</a></li>
 											<li><a href="return-policy.php" class="menu-active">Return Policy</a></li>
-											<li><a href="shipping-information.php">Shipping Information</a></li>
+											<li><a href="shipping-policy.php">Shipping Information</a></li>
 											<li><a href="tax-policy.php">Tax Policy</a></li>
 										</ul>
 									</div>

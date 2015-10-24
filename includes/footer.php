@@ -28,7 +28,8 @@
 							<ul class="nav nav-pills nav-stacked">
 								<li><a href="#">Terms of Use</a></li>
 								<li><a href="privacy-policy.php">Privacy Policy</a></li>
-								<li><a href="#">Refund Policy</a></li>
+								<li><a href="return-policy.php">Return Policy</a></li>
+								<li><a href="shipping-policy.php">Shipping Information</a></li>
 							</ul>
 						</div>
 					</div>

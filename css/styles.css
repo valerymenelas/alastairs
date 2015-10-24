@@ -454,6 +454,9 @@ ul.sub-menu {
 	color:#FE980F;
 }
 
+.nav.nav-pills.nav-stacked {
+    line-height: 12px;
+}
 
 .searchform input {
   border: 1px solid #DDDDDD;
