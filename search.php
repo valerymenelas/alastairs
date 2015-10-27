@@ -28,7 +28,7 @@
 											
 												
 												
-												<img src='img/$product_image'  width='180' height='180' />
+												<img src='$product_image'  width='180' height='180' />
 
 												<h2><b> $ $product_price </b></h2>
 
