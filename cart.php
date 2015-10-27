@@ -162,19 +162,5 @@
 	</section><!--/#do_action-->
     <?php endif; ?>
 
-<<<<<<< Updated upstream
-=======
-<<<<<<< HEAD
  <?php include ("includes/footer.php"); ?>
-=======
->>>>>>> Stashed changes
-	<?php include ("includes/footer.php"); ?>
 
-
-    <script src="js/jquery.js"></script>
-	<script src="js/bootstrap.min.js"></script>
-    <script src="js/jquery.prettyPhoto.js"></script>
-    <script src="js/main.js"></script>
-</body>
-</html>
->>>>>>> origin/master
