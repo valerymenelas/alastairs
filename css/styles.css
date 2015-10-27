@@ -454,9 +454,6 @@ ul.sub-menu {
 	color:#FE980F;
 }
 
-.nav.nav-pills.nav-stacked {
-    line-height: 12px;
-}
 
 .searchform input {
   border: 1px solid #DDDDDD;
@@ -2064,28 +2061,44 @@ ul.privacylist li{
 
 
 /*************************
-******* Shipping Info  CSS ********
+******* Search CSS ********
 **************************/
 
-ul.shipping-list{
-  padding:5px 30px 15px 30px;
-  border: 1px solid #F7F7F0;
-  margin-bottom: 20px;
+#products_box {
+  margin-top: 25px;
+  margin-bottom: 75px;
 }
 
-ul.shipping-list h3 {
-    font-size: 16px;
+  #single_product {
+    float:left; 
+    margin-left:30px; 
+    padding:10px;
     text-align: center;
-    padding-bottom: 10px;
-}
+  }
+  
+  #single_product img {
+    
+  }
+  
+  #shopping_cart {
+    width:800px; 
+    height:50px; 
+    
+  }
 
-ul.shipping-list li{
-  list-style-type: none;
+#single_product p {
   color: #686868;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: 700;
 }
 
-.shipping-charge{
-  float:right;
-}
 
+
+#single_product h2{
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  color: #696763;
+}
 

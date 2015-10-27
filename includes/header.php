@@ -78,9 +78,12 @@
 							</ul>
 						</div>
 					</div>
-					<div class="col-sm-3">
+					<div class="col-sm-12">
 						<div class="search_box pull-right">
-							<input type="text" placeholder="Search"/>
+							<form method="post" action="search.php" enctype="multipart/form-data">
+								<input type="text" name="user_query" placeholder="Search a Product"/ > 
+								<input type="submit" name="search" value="Search" />
+							</form>
 						</div>
 					</div>
 				</div>
