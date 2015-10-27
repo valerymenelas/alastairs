@@ -9,6 +9,7 @@
 							<ul class="nav nav-pills nav-stacked">
 								<li><a href="contact-us.php">Contact Us</a></li>
 								<li><a href="#">FAQ</a></li>
+								<li><a href="#">Admin</a></li>
 							</ul>
 						</div>
 					</div>
