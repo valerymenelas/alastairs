@@ -26,6 +26,7 @@
 </head><!--/head-->
 
 <body>
+<?php include_once("analyticstracking.php") ?>
 		<?php
 			include("includes/connection.php");
 			$query=mysql_query("select * from alastairsgroup_account");
