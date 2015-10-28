@@ -37,7 +37,7 @@
 							<p>4000 Central Florida Blvd,</p>
 							<p>Orlando, FL 32816</p>
 							<p>Phone: 407-823-2000</p>
-							<p>Email: info@alastairshome.com</p>
+							<p>Email: <a href="mailto:alastairshomedecor@gmail.com">alastairshomedecor@gmail.com</a></p>
 	    				</address>
 	    			</div>
                     
