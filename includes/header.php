@@ -100,7 +100,7 @@
 					</div>
 					<div class="col-sm-12">
 						<div class="search_box pull-right">
-							<form method="post" action="search.php" enctype="multipart/form-data">
+							<form method="get" action="search.php" enctype="multipart/form-data">
 								<input type="text" name="user_query" placeholder="Search a Product"/ > 
 								<input type="submit" name="search" value="Search" />
 							</form>
