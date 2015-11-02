@@ -2102,3 +2102,7 @@ ul.privacylist li{
   color: #696763;
 }
 
+#single_product img {
+  width: 250px;
+}
+
