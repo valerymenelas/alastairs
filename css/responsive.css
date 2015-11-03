@@ -78,8 +78,9 @@
 }
 
 .footer-widget .col-sm-3{
-	display: inline-block;
-	width: 40%;
+	display: flex;
+	width: 50%;
+	padding-left: 50px;
 }
 
 #similar-product .carousel-inner .item img{
@@ -243,13 +244,13 @@ ul.sub-menu{
 	float: left;
 }
 
-.footer-widget .col-sm-2 {
+.footer-widget .col-sm-3 {
 	width: 28%;
 	display: flex;
 	margin-bottom: 50px;
 	margin-top: 0;
 	float: left;
-	margin-left: 30px;
+	margin-left: 100px;
 }
 
 .companyinfo{
@@ -435,14 +436,14 @@ ul.sub-menu{
 	text-align: center;
 }
 
-.footer-widget .col-sm-2 {
+.footer-widget .col-sm-3 {
 	width: 50%;
 	display: flex;
 	margin-bottom: 50px;
 	margin-top: 0;
 	float: left;
 	padding-right: 0;
-	padding-left: 30px;
+	padding-left: 50px;
 	margin-left: 0;
 }
 
