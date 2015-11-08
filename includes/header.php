@@ -82,7 +82,7 @@
 						</div>
 						<div class="mainmenu pull-left">
 							<ul class="nav navbar-nav collapse navbar-collapse">
-								<li><a href="home.php" class="active">Home</a></li>
+								<li><a href="home.php">Home</a></li>
 								<li class="dropdown"><a href="#">Shop<i class="fa fa-angle-down"></i></a>
                                     <ul role="menu" class="sub-menu">
                                         <li><a href="art-wall-decor.php">Art & Wall Décor</a></li>
@@ -91,7 +91,6 @@
 										<li><a href="kitchen.php">Kitchen</a></li> 
 										<li><a href="gifts.php">Gifts</a></li> 
 										<li><a href="clocks.php">Clocks</a></li> 
-
                                     </ul>
                                 </li> 
 								<li><a href="contact-us.php">Contact</a></li>
@@ -101,8 +100,8 @@
 					<div class="col-sm-12">
 						<div class="search_box pull-right">
 							<form method="get" action="search.php" enctype="multipart/form-data">
-								<input type="text" name="user_query" placeholder="Search a Product"/ > 
-								<input type="submit" name="search" value="Search" />
+								<input type="text" name="user_query" placeholder="Search a Product" class="search-input"/ > 
+								<input type="submit" name="search" ID="search-icon" value="Go" class="search-button"/>
 							</form>
 						</div>
 					</div>

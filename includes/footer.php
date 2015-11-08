@@ -5,11 +5,13 @@
 				<div class="row">
 					<div class="col-sm-3">
 						<div class="single-widget">
-							<h2>Service</h2>
+							<h2>Customer Service</h2>
 							<ul class="nav nav-pills nav-stacked">
+								<li><a href="return-policy.php">Return Policy</a></li>
+								<li><a href="shipping-policy.php">Shipping Information</a></li>
+								<li><a href="faq.php">FAQs</a></li>
 								<li><a href="contact-us.php">Contact Us</a></li>
-								<li><a href="#">FAQ</a></li>
-								<li><a href="#">Admin</a></li>
+								<li><a href="login.php">Account Login</a></li>
 							</ul>
 						</div>
 					</div>
@@ -17,28 +19,30 @@
 						<div class="single-widget">
 							<h2>Shop</h2>
 							<ul class="nav nav-pills nav-stacked">
-								<li><a href="#">Furniture</a></li>
-								<li><a href="#">Art & Wall Décor</a></li>
-								<li><a href="#">Lighting</a></li>
+								<li><a href="art-wall-decor.php">Art & Wall Décor</a></li>
+								<li><a href="lighting.php">Lighting</a></li> 
+								<li><a href="rugs-curtains.php">Rugs & Curtains</a></li> 
+								<li><a href="kitchen.php">Kitchen</a></li> 
+								<li><a href="gifts.php">Gifts</a></li> 
+								<li><a href="clocks.php">Clocks</a></li>
 							</ul>
 						</div>
 					</div>
 					<div class="col-sm-3">
 						<div class="single-widget">
-							<h2>Policies</h2>
+							<h2>Our Company</h2>
 							<ul class="nav nav-pills nav-stacked">
-								<li><a href="terms.php">Terms of Use</a></li>
+								<li><a href="contact-us.php">About Us</a></li>
 								<li><a href="privacy-policy.php">Privacy Policy</a></li>
-								<li><a href="return-policy.php">Return Policy</a></li>
-								<li><a href="shipping-policy.php">Shipping Information</a></li>
+								<li><a href="terms.php">Terms and Conditions</a></li>
 							</ul>
 						</div>
 					</div>
 					<div class="col-sm-3">
 						<div class="single-widget">
-							<h2>About Us</h2>
+							<h2>Logo Goes Here</h2>
 							<ul class="nav nav-pills nav-stacked">
-								<li><a href="#">About Us</a></li>
+								<li><a href="contact-us.php">logo goes here</a></li>
 							</ul>
 						</div>
 					</div>					

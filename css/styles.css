@@ -202,14 +202,13 @@ h1, h2, h3, h4, h5, h6,p {
 }
 
 .search_box input {
-  background: #F0F0E9;
-  border: medium none;
-  color: #B2B2B2;
+  background: #F8F8F8;
+  border: solid thin #A5A5A5 !important;
+  color: #686868;
   font-family: 'roboto';
   font-size: 12px;
   font-weight: 300;
   height: 35px;
-  outline: medium none;
   padding-left: 10px;
   width: 155px;
   background-image: url(../images/home/searchicon.png);
@@ -217,6 +216,21 @@ h1, h2, h3, h4, h5, h6,p {
   background-position: 130px;
 }
 
+#search-icon {
+      background: white url(../img/search-icon.png) right no-repeat;
+  }
+
+.search-button {
+    width: 50px !important;
+    background-color: #F8F8F8 !important;
+    border: solid thin #A5A5A5 !important;
+    padding: 0 !important;
+}
+
+.search-input:focus {
+    border: solid thin #90D5E7 !important;
+    box-shadow: inset -1px 0px 6px 2px #C8E8F0;
+}
 
 /*  Dropdown menu*/
 
@@ -429,7 +443,7 @@ ul.sub-menu {
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
   font-weight: 500;
-  margin-bottom: 22px;
+  margin-bottom: 10px;
   text-transform: uppercase;
 }
 
@@ -443,6 +457,7 @@ ul.sub-menu {
 	font-size: 14px;
 	font-weight: 300;
 	padding: 5px 0;
+  line-height: 12px;
 }
 
 .single-widget ul li a i {

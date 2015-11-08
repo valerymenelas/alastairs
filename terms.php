@@ -11,16 +11,15 @@
 									<h4 class="panel-title">
 										<a data-toggle="collapse" data-parent="#accordian">
 											<span class="badge pull-right"><i class="fa fa-plus"></i></span>
-											Customer Relations
+											Customer Service
 										</a>
 									</h4>
 								</div>
 								<div id="sportswear" class="panel-collapse">
 									<div class="panel-body">
 										<ul>
-											<li><a href="#">About Us</a></li>
-											<li><a href="#">How to Shop</a></li>
-											<li><a href="#">Frequently Asked Questions</a></li>
+											<li><a href="contact-us.php">About Us</a></li>
+											<li><a href="faq.php">FAQs</a></li>
 										</ul>
 									</div>
 								</div>
@@ -37,8 +36,9 @@
 								<div id="sportswear" class="panel-collapse">
 									<div class="panel-body">
 										<ul>
+											<li><a href="terms.php" class="menu-active">Terms and Conditions</a></li>
 											<li><a href="privacy-policy.php">Privacy Policy</a></li>
-											<li><a href="return-policy.php" class="menu-active">Return Policy</a></li>
+											<li><a href="return-policy.php">Return Policy</a></li>
 											<li><a href="shipping-policy.php">Shipping Information</a></li>
 											<li><a href="tax-policy.php">Tax Policy</a></li>
 										</ul>
