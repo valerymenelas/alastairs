@@ -153,8 +153,15 @@
 							<li>Shipping Cost <span>Free</span></li>
 							<li>Total <span>$<?php echo $total; ?></span></li>
 						</ul>
-							<a class="btn btn-default update" href="cart.php">Update</a>
-							<a class="btn btn-default check_out" href="checkout.php">Check Out</a>
+							<a class="btn btn-default update" href="cart.php">Update Cart</a>
+							
+                            <?php if($_SESSION['email']) { ?>
+						<a class="btn btn-default check_out" href="checkout.php">Checkout</a>
+                        <?php } else { ?>
+                        <a class="btn btn-default check_out" href="checkout.php">Check out as Guest</a>
+                 						<a class="btn btn-default check_out" href="login.php">Create an account to Check out</a>
+
+<?php } ?>       
 					</div>
 				</div>
 			</div>

@@ -11,7 +11,12 @@
 								<li><a href="shipping-policy.php">Shipping Information</a></li>
 								<li><a href="faq.php">FAQs</a></li>
 								<li><a href="contact-us.php">Contact Us</a></li>
+<<<<<<< HEAD
+								<li><a href="#">FAQ</a></li>
+								<li><a href="admin.php">Admin</a></li>
+=======
 								<li><a href="login.php">Account Login</a></li>
+>>>>>>> origin/master
 							</ul>
 						</div>
 					</div>

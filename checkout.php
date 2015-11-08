@@ -15,23 +15,28 @@
 						<div class="bill-to">
 							<p>Bill To</p>
 							<div class="form-one">
-								<form>
-									<input type="text" placeholder="Company Name">
-									<input type="text" placeholder="* Email">
-									<input type="text" placeholder="* First Name">
-									<input type="text" placeholder="* Last Name">
-									<input type="text" placeholder="* Address 1">
-									<input type="text" placeholder="Address 2">
-								</form>
+								<form action="paypal/paypal.php?sandbox=1" method="post"> <?php // remove sandbox=1 for live transactions ?>
+    <input type="hidden" name="action" value="process" />
+    <input type="hidden" name="cmd" value="_cart" /> <?php // use _cart for cart checkout ?>
+                                <input type="hidden" name="currency_code" value="USD" />
+                                 <input type="hidden" name="invoice" value="<?php echo date("His").rand(1234, 9632); ?>" />
+									<input type="text" placeholder="Company Name" name="company">
+									<input type="email" placeholder="* Email" name="payer_email"  <?php if($_SESSION['email']) { ?> value="<?php echo $_SESSION['email'];?>" <?php } ?> required>
+									<input type="text" placeholder="* First Name" name="payer_fname" required>
+									<input type="text" placeholder="* Last Name" name="payer_lname" required>
+									<input type="text" placeholder="* Address 1" name="payer_add1" required>
+									<input type="text" placeholder="Address 2" name="payer_add2">
+								
 							</div>
 							<div class="form-two">
-								<form>
-									<input type="text" placeholder="* Zip Code">
-									<select>
+								
+									<input type="text" placeholder="* Zip Code" name="payer_zip" required>
+                                    
+									<select name="payer_country" required>
 										<option>-- Country --</option>
 										<option>United States</option>
 									</select>
-									<select>
+									<select name="payer_state" required>
 										<option>-- State --</option>
 										<option value="AL">Alabama</option>
 										<option value="AK">Alaska</option>
@@ -85,11 +90,15 @@
 										<option value="WI">Wisconsin</option>
 										<option value="WY">Wyoming</option>
 									</select>				
-													
-									<input type="text" placeholder="* Phone">
-									<input type="text" placeholder="Mobile Phone">
-									<input type="text" placeholder="Fax">
-								</form>
+											<!--<select name="payer_city" required>
+										<option>-- City --</option>
+										<option>United States</option>
+									</select>-->	
+                                    <input type="hidden" value="" name="payer_city">	
+									<input type="text" placeholder="* Phone" name="mobile" required>
+									<input type="hidden" placeholder="Mobile Phone" name="phone" value="0" required>
+									<input type="text" placeholder="Fax" name="fax">
+							
 							</div>
 						</div>
 					</div>
@@ -128,6 +137,9 @@
                                 $query = mysql_query("SELECT * FROM alastairsgroup_account WHERE productID='".mysql_real_escape_string($proid)."'");
                                 while($results=mysql_fetch_array($query)):
                         ?>
+                         <input type="hidden" name="product_name" value="<?php echo $results['productName']; ?>"/>
+                         <input type="hidden" name="product_id" value="<?php echo $results['productID']; ?>"/>
+                          <input type="hidden" name="sku" value="<?php echo $results['sku']; ?>"/>
 						<tr>
 							<td class="cart_product">
 								<a href="product-details.php?view=<?php echo $results['productID']; ?>"><img src="<?php echo $results['image'];?>" alt="<?php echo $results['productName'];?>"></a>
@@ -142,6 +154,7 @@
 							</td>
 							<td class="cart_quantity">
 								<div class="cart_quantity_button">
+                               
 									<a class="cart_quantity_up" href="cart.php?prod=<?php echo $results['productID']; ?>"> + </a>
 									<input class="cart_quantity_input" type="text" name="quantity" value="<?php echo $v; ?>" autocomplete="off" size="2">
 									<a class="cart_quantity_down" href="cart.php?iprod=<?php echo $results['productID']; ?>"> - </a>
@@ -169,7 +182,7 @@
 									</tr>
 									<tr>
 										<td>Total</td>
-										<td><span>$<?php echo $total; ?></span></td>
+										<td><span>$<?php echo $total; ?></span><input type="hidden" name="product_amount" value="<?php echo $total; ?>" /></td>
 									</tr>
 								</table>
 							</td>
@@ -182,11 +195,14 @@
 			</div>
 			<div class="payment-options">
 					<span>
-						<label><input type="checkbox"> Paypal</label>
+						<label><input type="checkbox" required> 
+                        
+                      <input type="submit" id="paypal_img" name="submit" value="" />
+                        </label>
 					</span>
 				</div>
 		</div>
 	</section> <!--/#cart_items-->
-
+</form>
 	
  <?php include ("includes/footer.php"); ?>

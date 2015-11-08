@@ -7,10 +7,10 @@
                     // if login
                     if(isset($_POST['loginf'])){
                         //var_dump($_POST);
-                        if (!empty($_POST['txtEmailL'])){
-                            $email   = addslashes($_POST['txtEmailL']);
+                        if (!empty($_POST['txtUsername'])){
+                            $email   = addslashes($_POST['txtUsername']);
                         }else{
-                            echo "<p>Please enter an email</p>";
+                            echo "<p>Please enter an Username</p>";
                         }
                         if (!empty($_POST['txtPasswordL'])){
                             $password   = addslashes($_POST['txtPasswordL']);
@@ -23,9 +23,9 @@
                         }
                         if(!empty($password) && !empty($email)){
                             //check if user existed
-                            $query = mysql_query("SELECT email, password FROM member WHERE email='$email'");
+                            $query = mysql_query("SELECT email, password FROM member WHERE username='$email'");
                             if (mysql_num_rows($query) == 0) {
-                                echo "<p>Your email or password is not correct, please check again.</p>";
+                                echo "<p>Your Username or password is not correct, please check again.</p>";
                             }
                             //get pass in db
                             $row = mysql_fetch_array($query);
@@ -35,7 +35,7 @@
                             }
                             //save session
                             if(mysql_num_rows($query) > 0 && $password == $row['password']){
-                                $_SESSION['email'] = $email;
+                                $_SESSION['email'] = $row['email'];
                                 if(isset($remember)){
                                     if($remember==="on"){
                                         if(!empty($_SESSION['remember'])){
@@ -45,7 +45,7 @@
                                 }
                                 echo "You are now logged in!";
                                 ?>
-                                <script>window.location.href = "/~va634778/home.php";</script>
+                                <script>window.location.href = "home.php";</script>
                                 <?php
                             }
                         }    
@@ -54,7 +54,7 @@
 					<div class="login-form"><!--login form-->
 						<h2>Login to your account</h2>
 						<form action="" method="post">
-							<input name="txtEmailL" type="email" placeholder="Email Address" />
+							<input name="txtUsername" type="text" placeholder="Username" />
                             <input name="txtPasswordL" type="password" placeholder="Password" />
 							<span>
 								<input type="checkbox" class="checkbox" name="remember"> 

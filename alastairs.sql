@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 4.2.11
+-- version 4.3.8
 -- http://www.phpmyadmin.net
 --
 -- Host: localhost
--- Generation Time: Oct 27, 2015 at 05:31 PM
--- Server version: 5.6.21
--- PHP Version: 5.6.3
+-- Generation Time: Nov 06, 2015 at 11:16 AM
+-- Server version: 5.5.42-37.1
+-- PHP Version: 5.4.23
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET time_zone = "+00:00";
@@ -17,7 +17,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8 */;
 
 --
--- Database: `va634778`
+-- Database: `va634778_alastairs`
 --
 
 -- --------------------------------------------------------
@@ -39,7 +39,7 @@ CREATE TABLE IF NOT EXISTS `alastairsgroup_account` (
   `productKeywords` text NOT NULL,
   `weight` decimal(5,0) NOT NULL,
   `measurements` varchar(75) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=25 DEFAULT CHARSET=latin1;
 
 --
 -- Dumping data for table `alastairsgroup_account`
@@ -65,6 +65,91 @@ INSERT INTO `alastairsgroup_account` (`productID`, `productName`, `description`,
 (17, 'Wood Accent Wall Clock', 'A fun mix of knotty wood and rustic metal converge in the most interesting way. The clock?s cutouts between clock numbers and within the face make for a light and airy vintage-inspired look.', 'clocks', 12345694, 100, '50', '219', 'img/clocks/clocks2.jpeg', 'gifts, home accents, decor, clock, clocks', '15', ''),
 (18, 'Industrial Wall Clock', 'Polished yet industrial chic, this wall clock cranks up the style in fresh fashion. The interior gears and mechanisms are bathed in lighter tones?such a cool complement to the vintage style frame.', 'clocks', 12345695, 100, '50', '179', 'img/clocks/clocks3.jpeg', 'gifts, home accents, decor, clock, clocks', '15', '');
 
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `login`
+--
+
+CREATE TABLE IF NOT EXISTS `login` (
+  `id` int(11) NOT NULL,
+  `username` varchar(255) NOT NULL,
+  `password` varchar(255) NOT NULL
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `login`
+--
+
+INSERT INTO `login` (`id`, `username`, `password`) VALUES
+(1, 'Admin', 'high^five');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `member`
+--
+
+CREATE TABLE IF NOT EXISTS `member` (
+  `id` int(6) unsigned NOT NULL,
+  `username` varchar(255) NOT NULL,
+  `email` varchar(255) NOT NULL,
+  `password` varchar(255) NOT NULL
+) ENGINE=InnoDB AUTO_INCREMENT=14 DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `member`
+--
+
+INSERT INTO `member` (`id`, `username`, `email`, `password`) VALUES
+(1, 'Valery', 'valerymenelas@gmail.com', 'f50a432c834de2e4819b4613740f5d00'),
+(7, 'Logan', 'logan.hursh@yahoo.com', '1ee8574e6e652e5367e6d2819850adfa'),
+(12, 'Super', 'test@alastairs.com', 'de01de8b5f40c45a497e173775f780a9');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `paypal_log`
+--
+
+CREATE TABLE IF NOT EXISTS `paypal_log` (
+  `id` int(10) NOT NULL,
+  `txn_id` varchar(600) NOT NULL,
+  `log` text NOT NULL,
+  `posted_date` datetime NOT NULL
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `purchases`
+--
+
+CREATE TABLE IF NOT EXISTS `purchases` (
+  `id` int(10) NOT NULL,
+  `invoice` varchar(300) NOT NULL,
+  `trasaction_id` varchar(600) NOT NULL,
+  `log_id` int(10) NOT NULL,
+  `company` varchar(255) NOT NULL,
+  `product_id` varchar(300) NOT NULL,
+  `product_name` varchar(300) NOT NULL,
+  `product_quantity` varchar(300) NOT NULL,
+  `product_amount` varchar(300) NOT NULL,
+  `payer_fname` varchar(300) NOT NULL,
+  `payer_lname` varchar(300) NOT NULL,
+  `payer_address` varchar(300) NOT NULL,
+  `payer_city` varchar(300) NOT NULL,
+  `payer_state` varchar(300) NOT NULL,
+  `payer_zip` varchar(300) NOT NULL,
+  `payer_country` varchar(300) NOT NULL,
+  `payer_email` text NOT NULL,
+  `payment_status` varchar(300) NOT NULL,
+  `posted_date` datetime NOT NULL,
+  `phone` varchar(255) NOT NULL,
+  `mobile` varchar(255) NOT NULL,
+  `fax` varchar(255) NOT NULL
+) ENGINE=MyISAM AUTO_INCREMENT=28 DEFAULT CHARSET=latin1;
+
 --
 -- Indexes for dumped tables
 --
@@ -73,8 +158,61 @@ INSERT INTO `alastairsgroup_account` (`productID`, `productName`, `description`,
 -- Indexes for table `alastairsgroup_account`
 --
 ALTER TABLE `alastairsgroup_account`
- ADD PRIMARY KEY (`productID`);
+  ADD PRIMARY KEY (`productID`);
 
+--
+-- Indexes for table `login`
+--
+ALTER TABLE `login`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- Indexes for table `member`
+--
+ALTER TABLE `member`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- Indexes for table `paypal_log`
+--
+ALTER TABLE `paypal_log`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- Indexes for table `purchases`
+--
+ALTER TABLE `purchases`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- AUTO_INCREMENT for dumped tables
+--
+
+--
+-- AUTO_INCREMENT for table `alastairsgroup_account`
+--
+ALTER TABLE `alastairsgroup_account`
+  MODIFY `productID` int(10) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=25;
+--
+-- AUTO_INCREMENT for table `login`
+--
+ALTER TABLE `login`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=2;
+--
+-- AUTO_INCREMENT for table `member`
+--
+ALTER TABLE `member`
+  MODIFY `id` int(6) unsigned NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=14;
+--
+-- AUTO_INCREMENT for table `paypal_log`
+--
+ALTER TABLE `paypal_log`
+  MODIFY `id` int(10) NOT NULL AUTO_INCREMENT;
+--
+-- AUTO_INCREMENT for table `purchases`
+--
+ALTER TABLE `purchases`
+  MODIFY `id` int(10) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=28;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
