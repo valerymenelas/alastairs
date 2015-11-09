@@ -155,49 +155,6 @@ if($_SESSION['login'] != 'Admin') { header('location:admin_login.php'); }
       
     </div>
 
-	<footer id="footer"><!--Footer-->
-		
-		<div class="footer-widget">
-			<div class="container">
-				<div class="row">
-					<div class="col-sm-3">
-						<div class="single-widget">
-							<h2>Service</h2>
-							<ul class="nav nav-pills nav-stacked">
-								<li><a href="contact-us.php">Contact Us</a></li>
-								<li><a href="#">FAQ</a></li>
-							</ul>
-						</div>
-					</div>
-					<div class="col-sm-3">
-						<div class="single-widget">
-							<h2>Shop</h2>
-							<ul class="nav nav-pills nav-stacked">
-								<li><a href="#">Art & Wall Décor</a></li>
-								<li><a href="#">Lighting</a></li>
-							</ul>
-						</div>
-					</div>
-					<div class="col-sm-3">
-						<div class="single-widget">
-							<h2>Policies</h2>
-							<ul class="nav nav-pills nav-stacked">
-								<li><a href="#">Terms of Use</a></li>
-								<li><a href="#">Privecy Policy</a></li>
-								<li><a href="#">Refund Policy</a></li>
-							</ul>
-						</div>
-					</div>
-					<div class="col-sm-3">
-						<div class="single-widget">
-							<h2>About Us</h2>
-							<ul class="nav nav-pills nav-stacked">
-								<li><a href="#">About Us</a></li>
-							</ul>
-						</div>
-					</div>					
-				</div>
-			</div>
-		</div>
+	
 		
  <?php include ("includes/footer.php"); ?>
