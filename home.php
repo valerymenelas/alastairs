@@ -24,6 +24,12 @@
 						<div class="panel-group category-products" id="accordian"><!--category-productsr-->
 							<div class="panel panel-default">
 								<div class="panel-heading">
+									<h4 class="panel-title category-title">Shop By Category</h4>
+								</div>
+							</div>
+
+							<div class="panel panel-default">
+								<div class="panel-heading">
 									<h4 class="panel-title"><a href="art-wall-decor.php">Art & Wall Décor</a></h4>
 								</div>
 							</div>
