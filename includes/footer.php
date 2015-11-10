@@ -3,7 +3,7 @@
 		<div class="footer-widget">
 			<div class="container">
 				<div class="row">
-					<div class="col-xs-12 col-sm-3">
+					<div class="col-xs-12 col-sm-4 col-md-3">
 						<div class="single-widget">
 							<h2>Customer Service</h2>
 							<ul class="nav nav-pills nav-stacked">
@@ -17,7 +17,7 @@
 							</ul>
 						</div>
 					</div>
-					<div class="col-xs-12 col-sm-3">
+					<div class="col-xs-12 col-sm-4 col-md-3">
 						<div class="single-widget">
 							<h2>Shop</h2>
 							<ul class="nav nav-pills nav-stacked">
@@ -30,7 +30,7 @@
 							</ul>
 						</div>
 					</div>
-					<div class="col-xs-12 col-sm-3">
+					<div class="col-xs-12 col-sm-4 col-md-3">
 						<div class="single-widget">
 							<h2>Our Company</h2>
 							<ul class="nav nav-pills nav-stacked">
@@ -40,14 +40,7 @@
 							</ul>
 						</div>
 					</div>
-					<div class="col-xs-12 col-sm-3">
-						<div class="single-widget">
-							<h2>Logo Goes Here</h2>
-							<ul class="nav nav-pills nav-stacked">
-								<li><a href="contact-us.php">logo goes here</a></li>
-							</ul>
-						</div>
-					</div>					
+								
 				</div>
 			</div>
 		</div>
