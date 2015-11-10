@@ -1055,6 +1055,12 @@ h2.title {
 
 /*category side bar*/
 
+.category-title {
+  color: #A4D546;
+  font-size: 20px;
+  border-bottom: solid 2px;
+  padding-bottom: 5px;
+}
 
 
 #advertisement {
@@ -2146,3 +2152,7 @@ label input {
   width: 160px;
   height: 50px;
   border: 0px; }
+
+img {
+  max-width: 100%;
+}
