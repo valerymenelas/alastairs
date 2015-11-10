@@ -43,15 +43,6 @@
 				</div>
 				
 				<div class="col-sm-9 padding-right">
-
-
-					<div class="breadcrumbs">
-						<ol class="breadcrumb">
-							<li><a href="#">Home</a></li>
-							<li><a href="#">Furniture</a></li>
-							<li class="breadcrumbs-active"><a href="#">Sofa & Loveseat</a></li>
-						</ol>
-					</div>
 			        
                     <?php
                     $proId = $_GET["view"];
