@@ -53,7 +53,7 @@
 				<div class="col-sm-9 padding-right">
 					<div class="features_items"><!--features_items-->
 					  <h2 class="title text-center">Terms and Conditions</h2>
-							<p class="paragraph">Welcome to alistairs.com ("Web Site")! We are part of "DIG4350, Inc. Society" which includes Joseph Agudelo, Jackeline Baez, Shayla Hart, Nicholas Hursh, Timothy Kennedy, and Valery Menelas.</p>
+							<p class="paragraph">Welcome to Alastairs.com ("Web Site")! We are part of "DIG4350, Inc. Society" which includes Joseph Agudelo, Jackeline Baez, Shayla Hart, Nicholas Hursh, Timothy Kennedy, and Valery Menelas.</p>
 							<p class="paragraph">Please take a few minutes to review these Terms and Conditions. These Terms and Conditions apply to your access and use of the Web Site and our mobile applications. Your use of our Web Site or our mobile application constitutes your agreement to follow these Terms and Conditions and to be bound by them.</p>						
 						<h3 class="title">These Terms and Conditions May Change</h3>
 							<p class="paragraph">DIG4350, Inc. Society reserves the right to update or modify these Terms and Conditions at any time without prior notice. For this reason, we encourage you to review these Terms and Conditions whenever you purchase products from us or use our Web Site.</p>		
