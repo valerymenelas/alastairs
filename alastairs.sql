@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: localhost
--- Generation Time: Nov 06, 2015 at 11:16 AM
+-- Generation Time: Nov 10, 2015 at 08:18 AM
 -- Server version: 5.5.42-37.1
 -- PHP Version: 5.4.23
 
@@ -150,6 +150,52 @@ CREATE TABLE IF NOT EXISTS `purchases` (
   `fax` varchar(255) NOT NULL
 ) ENGINE=MyISAM AUTO_INCREMENT=28 DEFAULT CHARSET=latin1;
 
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `ratings`
+--
+
+CREATE TABLE IF NOT EXISTS `ratings` (
+  `id` int(10) NOT NULL,
+  `total_votes` int(5) NOT NULL DEFAULT '0',
+  `total_value` int(5) NOT NULL DEFAULT '0',
+  `used_ips` longtext NOT NULL,
+  `date` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `ratings`
+--
+
+INSERT INTO `ratings` (`id`, `total_votes`, `total_value`, `used_ips`, `date`) VALUES
+(1, 5, 18, 'a:5:{i:0;s:12:"182.68.5.240";i:1;s:13:"182.64.251.22";i:2;s:13:"72.239.57.140";i:3;s:14:"122.162.38.218";i:4;s:14:"132.170.212.52";}', '2015-11-09 06:00:00'),
+(0, 0, 0, '', '2015-11-09 12:13:04');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `rating_view`
+--
+
+CREATE TABLE IF NOT EXISTS `rating_view` (
+  `id` int(11) NOT NULL,
+  `user_email` text COLLATE utf8_unicode_ci NOT NULL,
+  `rate` int(11) NOT NULL,
+  `product_id` text COLLATE utf8_unicode_ci NOT NULL,
+  `title` text COLLATE utf8_unicode_ci NOT NULL,
+  `description` text COLLATE utf8_unicode_ci NOT NULL
+) ENGINE=MyISAM AUTO_INCREMENT=4 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+
+--
+-- Dumping data for table `rating_view`
+--
+
+INSERT INTO `rating_view` (`id`, `user_email`, `rate`, `product_id`, `title`, `description`) VALUES
+(1, '', 5, '', 'hi', 'yutuytguy'),
+(2, '', 4, '10', 'dsds', 'dsdsd'),
+(3, '', 2, '1', 'Test', 'Test');
+
 --
 -- Indexes for dumped tables
 --
@@ -185,6 +231,18 @@ ALTER TABLE `purchases`
   ADD PRIMARY KEY (`id`);
 
 --
+-- Indexes for table `ratings`
+--
+ALTER TABLE `ratings`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- Indexes for table `rating_view`
+--
+ALTER TABLE `rating_view`
+  ADD PRIMARY KEY (`id`);
+
+--
 -- AUTO_INCREMENT for dumped tables
 --
 
@@ -213,6 +271,11 @@ ALTER TABLE `paypal_log`
 --
 ALTER TABLE `purchases`
   MODIFY `id` int(10) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=28;
+--
+-- AUTO_INCREMENT for table `rating_view`
+--
+ALTER TABLE `rating_view`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=4;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;

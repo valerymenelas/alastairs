@@ -26,6 +26,11 @@ ob_start();session_start();//session
     <link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/ico/apple-touch-icon-72-precomposed.png">
     <link rel="apple-touch-icon-precomposed" href="img/ico/apple-touch-icon-57-precomposed.png">
 
+    <!-- Ratings -->
+    <link rel="stylesheet" href="rating/rating.css" />
+    <script src="rating/jquery.js" type="text/javascript"></script>	
+	<script type="text/javascript" src="rating/rating.js"></script>
+
    <!--Google Analytics -->
    <script>
 	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
