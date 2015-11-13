@@ -5,8 +5,8 @@ $rating_dbname        = 'va634778_alastairs';
 $units=5;
 function connect(){
 	$host="localhost";
- $uname="root";/*va634778*/
- $pass="root";/*49C13AD71D0943A9B0E44FD2D7CAA9D0*/
+ $uname="va634778";/*va634778*/
+ $pass="49C13AD71D0943A9B0E44FD2D7CAA9D0";/*49C13AD71D0943A9B0E44FD2D7CAA9D0*/
  $rating_dbname        = 'va634778_alastairs';
 
 $con = mysql_connect($host,$uname,$pass);
