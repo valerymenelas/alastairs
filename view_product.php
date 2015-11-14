@@ -36,6 +36,7 @@ if(isset($_GET['action']) && $_GET['action']== 'delete')
             <li><a href="view_user.php">View User</a></li>
             <li class="active"><a href="view_product.php">View Product</a></li>
             <li><a href="add_product.php">Add Product</a></li>
+            <li><a href="member_tasks.php">Member Tasks Breakdown</a></li>
         </ul>
         <ul class="nav navbar-nav navbar-right">
         <li>Hello,Admin</li>

@@ -41,14 +41,9 @@
 	    				</address>
 	    			</div>
                     
-                    <ul>
-	    			  <h2 class="title text-center">Creators</h2>
-	    			<li>Valery Menelas</li>
-                    <li>Timothy Kennedy</li>
-                    <li>Nicholas Hursh</li>
-                    <li>Shayla Hart</li>
-                    <li>Jackeline Baez</li>
-                    <li>Joseph Agudelo</li>
+                  <ul>
+    			    <h2 class="title text-center">Our Warehouse</h2>
+	    			<img src="img/home/building.jpg" alt="Our Building" width="338" height="251">
                     </ul>
                     
     			</div>    			
