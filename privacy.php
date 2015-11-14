@@ -29,7 +29,7 @@
 								<div class="panel-heading">
 									<h4 class="panel-title">
 										<a data-toggle="collapse" data-parent="#accordian">
-											<span class="badge pull-right"><i class="fa fa-plus"></i></span></span>
+											<span class="badge pull-right"><i class="fa fa-plus"></i></span>
 											Policies
 										</a>
 									</h4>
