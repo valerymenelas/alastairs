@@ -14,7 +14,6 @@ if($_SESSION['login'] != 'Admin') { header('location:admin_login.php'); }
             <li><a href="view_user.php">View User</a></li>
             <li><a href="view_product.php">View Product</a></li>
             <li class="active"><a href="add_product.php">Add Product</a></li>
-            <li><a href="member_tasks.php">Member Tasks Breakdown</a></li>
         </ul>
         <ul class="nav navbar-nav navbar-right">
             <li><a href="admin_logout.php">Logout</a></li>
