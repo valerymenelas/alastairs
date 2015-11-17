@@ -15,7 +15,7 @@
                         	<li> <strong> Original creater of site </strong> </li>
                             <li> PHP back end </li>
                             <li> Interaction with database </li>
-                            <li> Guest, Unprivilided, Privileged and Admin access </li>
+                            <li> Guest, Unprivileged, Privileged and Admin access </li>
                             <li> Rating system </li>
                             <li> Site validation </li>
                             <li> CRUD operations </li>
@@ -32,8 +32,6 @@
                         	<li> PHP back end </li>
                             <li> Integration of site search </li>
                             <li> Interaction with database </li>
-                            <li> Guest, Unprivilided, Privileged and Admin access </li>
-                            <li> Rating system </li>
                             <li> Site validation </li>
                         	<li> CRUD operations </li>
                             <li> Integration of a mobile view </li>
@@ -47,7 +45,6 @@
                     <div class="col-sm-6">
                     	<h3>Logan</h3>
                         <ul> 
-                        	<li> PHP back end </li>
                         	<li> Interaction with database </li>
                             <li> Site validation </li>
                             <li> CRUD operations </li>
@@ -60,7 +57,6 @@
                     <div class="col-sm-6">
                     	<h3>Jackie</h3>
                         <ul>
-                        	<li> PHP back end </li>
                         	<li> Business policies </li>
                             <li> Security Statement </li>
                             <li> Site validation </li>
@@ -75,7 +71,6 @@
                     <div class="col-sm-6"> 
                     	<h3>Joseph</h3>
                         <ul> 
-                        	<li> PHP back end </li>
                         	<li> Business policies </li>
                         	<li> Site validation </li>
                             <li> General presentation </li>
@@ -85,7 +80,6 @@
                     <div class="col-sm-6">
                         <h3>Shayla</h3>
                         <ul>
-                        	<li> PHP back end </li>
                         	<li> Integration of SEO</li>
                             <li> Integration of Google Analytics </li>
                             <li> Testing requirements </li>
