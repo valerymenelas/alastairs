@@ -3,7 +3,7 @@ include ("includes/header.php");
 if($_SESSION['login'] == 'Admin') { header('location:admin.php'); } 
  ?>	
 	
-    <section id=""><!--form-->
+    <section><!--form-->
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-10 col-sm-offset-1">
@@ -26,9 +26,9 @@ if($_SESSION['login'] == 'Admin') { header('location:admin.php'); }
                     
 					<div class="login-form"><!--login form-->
 						<h2>Login to your Admin account</h2>
-						<form action="" method="post">
-							<input name="username" type="username" placeholder="Username" />
-                            <input name="password" type="password" placeholder="Password" />
+						<form method="post">
+							<input name="username" type="username" placeholder="Username"/>
+                            <input name="password" type="password" placeholder="Password"/>
 							<span>
 								<input type="checkbox" class="checkbox" name="remember"> 
 								Keep me signed in
