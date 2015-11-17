@@ -59,7 +59,6 @@
                         <div class="col-sm-6">
                         	<h3>Valery</h3>
                             <ul>
-                            	<li> <strong> Original creater of site </strong> </li>
                                 <li> PHP back end </li>
                                 <li> Interaction with database </li>
                                 <li> Guest, Unprivileged, Privileged and Admin access </li>

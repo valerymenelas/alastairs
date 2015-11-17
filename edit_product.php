@@ -13,7 +13,6 @@ $da = mysql_query("Select * from alastairsgroup_account where productID=".$main)
 	
 	if(isset($_POST['edit']))
 	{
-		//echo '<pre>'; print_r($_POST);
 		if($_FILES['image']['name'])
 					{
 						$imagename = $_FILES['image']['name'];
@@ -29,11 +28,7 @@ $da = mysql_query("Select * from alastairsgroup_account where productID=".$main)
 					{
 						$uploads_dir1 =$data['image']; 
 					}
-		
-		
-		//mysql_query("INSERT into alastairsgroup_account(productName,description,category,sku,stock,cost,price,image,productKeywords,weight) values('".$_POST['name']."','".$_POST['description']."','".$_POST['category']."','".$_POST['sku']."',
-		//'".$_POST['stock']."','".$_POST['cost']."','".$_POST['price']."','".$uploads_dir1."','".$_POST['productKeywords']."','".$_POST['weight']."')");
-		
+			
 		mysql_query("UPDATE alastairsgroup_account SET
 		productName ='".$_POST['name']."',
 		description = '".$_POST['description']."',

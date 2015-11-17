@@ -14,7 +14,6 @@
 		</div>
 	</div><!--/slider-->
 	
-	<section>
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-3">
@@ -98,7 +97,7 @@
 						{
 						?>
 						
-						<div id="recommended-item-carousel" class="carousel slide" data-ride="carousel">
+						<div class="recommended-item-carousel carousel slide" data-ride="carousel">
 							<div class="carousel-inner">
 								<div class="item active">	
 									<div class="col-sm-4">
@@ -169,6 +168,5 @@
 				</div>
 			</div>
 		</div>
-	</section>
 
 <?php include ("includes/footer.php"); ?>

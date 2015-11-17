@@ -1,7 +1,7 @@
 <?php
 require_once("library.php"); // include the library file
-define('EMAIL_ADD', 'notifyemail@anydomain.com'); // define any notification email
-define('PAYPAL_EMAIL_ADD', 'valerymenelas-buyer@gmail.com'); // facilitator email which will receive payments change this email to a live paypal account id when the site goes live
+define('EMAIL_ADD', 'paypal@alastairs.com'); // define any notification email
+define('PAYPAL_EMAIL_ADD', 'paypal@alastairs.com'); // facilitator email which will receive payments change this email to a live paypal account id when the site goes live
 require_once("paypal_class.php");
 $p 				= new paypal_class(); // paypal class
 $p->admin_mail 	= EMAIL_ADD; // set notification email

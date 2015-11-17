@@ -2,12 +2,6 @@
 
 	<section id="cart_items">
 		<div class="container">
-			<div class="breadcrumbs">
-				<ol class="breadcrumb">
-				  <li><a href="#">Home</a></li>
-				  <li class="active">Check out</li>
-				</ol>
-			</div><!--/breadcrums-->
 
 			<div class="alastair-informations">
 				<div class="row">
@@ -16,8 +10,8 @@
 							<p>Bill To</p>
 							<div class="form-one">
 								<form action="paypal/paypal.php?sandbox=1" method="post"> <?php // remove sandbox=1 for live transactions ?>
-    <input type="hidden" name="action" value="process" />
-    <input type="hidden" name="cmd" value="_cart" /> <?php // use _cart for cart checkout ?>
+							    <input type="hidden" name="action" value="process" />
+							    <input type="hidden" name="cmd" value="_cart" /> <?php // use _cart for cart checkout ?>
                                 <input type="hidden" name="currency_code" value="USD" />
                                  <input type="hidden" name="invoice" value="<?php echo date("His").rand(1234, 9632); ?>" />
 									<input type="text" placeholder="Company Name" name="company">
@@ -33,7 +27,6 @@
 									<input type="text" placeholder="* Zip Code" name="payer_zip" required>
                                     
 									<select name="payer_country" required>
-										<option>-- Country --</option>
 										<option>United States</option>
 									</select>
 									<select name="payer_state" required>
@@ -90,14 +83,10 @@
 										<option value="WI">Wisconsin</option>
 										<option value="WY">Wyoming</option>
 									</select>				
-											<!--<select name="payer_city" required>
-										<option>-- City --</option>
-										<option>United States</option>
-									</select>-->	
+
                                     <input type="hidden" value="" name="payer_city">	
 									<input type="text" placeholder="* Phone" name="mobile" required>
 									<input type="hidden" placeholder="Mobile Phone" name="phone" value="0" required>
-									<input type="text" placeholder="Fax" name="fax">
 							
 							</div>
 						</div>
