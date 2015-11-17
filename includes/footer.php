@@ -34,7 +34,7 @@
 						<div class="single-widget">
 							<h2>Our Company</h2>
 							<ul class="nav nav-pills nav-stacked">
-								<li><a href="contact-us.php">About Us</a></li>
+								<li><a href="member_tasks.php">About Us</a></li>
 								<li><a href="privacy-policy.php">Privacy Policy</a></li>
 								<li><a href="terms.php">Terms and Conditions</a></li>
 							</ul>

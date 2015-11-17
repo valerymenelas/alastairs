@@ -113,6 +113,7 @@ ob_start();session_start();//session
 										<li><a href="clocks.php">Clocks</a></li> 
                                     </ul>
                                 </li> 
+                                <li><a href="member_tasks.php">About Us</a></li>
 								<li><a href="contact-us.php">Contact</a></li>
 							</ul>
 						</div>
