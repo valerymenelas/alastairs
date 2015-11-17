@@ -30,7 +30,7 @@
 	    			</div>
 	    		</div>
 	    		<div class="col-sm-4">
-    			  <div class="contact-info">
+    			  	<div class="contact-info">
 	    				<h2 class="title text-center">Contact Info</h2>
 	    				<address>
 	    					<p>Alastair’s Home Décor </p>
@@ -40,17 +40,17 @@
 							<p>Email: <a href="mailto:alastairshomedecor@gmail.com">alastairshomedecor@gmail.com</a></p>
 	    				</address>
 	    			</div>
-                    
-                    <ul>
-	    			  <h2 class="title text-center">Creators</h2>
-	    			<li>Valery Menelas</li>
-                    <li>Timothy Kennedy</li>
-                    <li>Nicholas Hursh</li>
-                    <li>Shayla Hart</li>
-                    <li>Jackeline Baez</li>
-                    <li>Joseph Agudelo</li>
-                    </ul>
-                    
+                	<div class="creator-info">
+                		<h2 class="title text-center">Creators</h2>  
+	                    <ul>
+			    			<li>Valery Menelas</li>
+		                    <li>Timothy Kennedy</li>
+		                    <li>Nicholas Hursh</li>
+		                    <li>Shayla Hart</li>
+		                    <li>Jackeline Baez</li>
+		                    <li>Joseph Agudelo</li>
+	                    </ul>
+                    </div>
     			</div>    			
 	    	</div>  
     	</div>	

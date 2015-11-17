@@ -195,12 +195,12 @@
 			</div>
 			<div class="payment-options">
 					<span>
-						<label><input type="checkbox" required> 
-                        
-                      <input type="submit" id="paypal_img" name="submit" value="" />
+						<label>
+							<input type="checkbox" required> 
+                      		<input type="submit" id="paypal_img" name="submit" value="" />
                         </label>
 					</span>
-				</div>
+			</div>
 		</div>
 	</section> <!--/#cart_items-->
 </form>

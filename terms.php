@@ -15,7 +15,7 @@
 										</a>
 									</h4>
 								</div>
-								<div id="sportswear" class="panel-collapse">
+								<div class="panel-collapse">
 									<div class="panel-body">
 										<ul>
 											<li><a href="contact-us.php">About Us</a></li>
@@ -28,12 +28,12 @@
 								<div class="panel-heading">
 									<h4 class="panel-title">
 										<a data-toggle="collapse" data-parent="#accordian" class="menu-active">
-											<span class="badge pull-right"><i class="fa fa-plus"></i></span></span>
+											<span class="badge pull-right"><i class="fa fa-plus"></i></span>
 											Policies
 										</a>
 									</h4>
 								</div>
-								<div id="sportswear" class="panel-collapse">
+								<div class="panel-collapse">
 									<div class="panel-body">
 										<ul>
 											<li><a href="terms.php" class="menu-active">Terms and Conditions</a></li>
@@ -45,8 +45,7 @@
 									</div>
 								</div>
 							</div>
-						</div><!--/category-products-->
-						
+						</div><!--/category-products-->	
 					</div>
 				</div>
 				
@@ -89,6 +88,7 @@
 					</div><!--main privacy policy-->
 				</div>
 			</div>
+		</div>	
 	</section>
 	
 <?php include ("includes/footer.php"); ?>

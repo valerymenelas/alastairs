@@ -15,7 +15,7 @@
 										</a>
 									</h4>
 								</div>
-								<div id="sportswear" class="panel-collapse">
+								<div class="panel-collapse">
 									<div class="panel-body">
 										<ul>
 											<li><a href="contact-us.php">About Us</a></li>
@@ -28,12 +28,12 @@
 								<div class="panel-heading">
 									<h4 class="panel-title">
 										<a data-toggle="collapse" data-parent="#accordian" class="menu-active">
-											<span class="badge pull-right"><i class="fa fa-plus"></i></span></span>
+											<span class="badge pull-right"><i class="fa fa-plus"></i></span>
 											Policies
 										</a>
 									</h4>
 								</div>
-								<div id="sportswear" class="panel-collapse">
+								<div class="panel-collapse">
 									<div class="panel-body">
 										<ul>
 											<li><a href="terms.php">Terms and Conditions</a></li>
@@ -46,7 +46,6 @@
 								</div>
 							</div>
 						</div><!--/category-products-->
-						
 					</div>
 				</div>
 				
@@ -135,10 +134,10 @@
 						<h3 class="title">Changes to the Privacy Policy</h3>
 							<p class="paragraph">We reserve the right to change this Privacy Policy at any time. Any changes will be effective immediately upon the posting of the revised Privacy Policy and your use of our Site indicates your consent to the privacy policy posted at the time of use.</p>
 
-
 					</div><!--main privacy policy-->
 				</div>
 			</div>
+		</div>	
 	</section>
 	
 <?php include ("includes/footer.php"); ?>

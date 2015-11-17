@@ -15,7 +15,7 @@
 										</a>
 									</h4>
 								</div>
-								<div id="sportswear" class="panel-collapse">
+								<div class="panel-collapse">
 									<div class="panel-body">
 										<ul>
 											<li><a href="contact-us.php">About Us</a></li>
@@ -28,12 +28,12 @@
 								<div class="panel-heading">
 									<h4 class="panel-title">
 										<a data-toggle="collapse" data-parent="#accordian" class="menu-active">
-											<span class="badge pull-right"><i class="fa fa-plus"></i></span></span>
+											<span class="badge pull-right"><i class="fa fa-plus"></i></span>
 											Policies
 										</a>
 									</h4>
 								</div>
-								<div id="sportswear" class="panel-collapse">
+								<div class="panel-collapse">
 									<div class="panel-body">
 										<ul>
 											<li><a href="terms.php">Terms and Conditions</a></li>
@@ -45,8 +45,7 @@
 									</div>
 								</div>
 							</div>
-						</div><!--/category-products-->
-						
+						</div><!--/category-products-->	
 					</div>
 				</div>
 				
@@ -60,7 +59,7 @@
 							<div class="col-sm-12">
 								<div class="col-md-6">
 									<ul class="shipping-list"> 
-										<h3><strong>48 Contiguous United States</strong></h3>
+										<span class="list-main-title"><strong>48 Contiguous United States</strong></span>
 										<li><strong>Order Total</strong><span class="shipping-charge"><strong>Charge</strong></span></li>
 										<li>Up to $15<span class="shipping-charge">$5.00</span></li>
 										<li>$15.01 - $25.00<span class="shipping-charge">$7.00</span></li>
@@ -81,7 +80,7 @@
 
 								<div class="col-md-6">
 									<ul class="shipping-list"> 
-										<h3><strong>Alaska and Hawaii</strong></h3>
+										<span class="list-main-title"><strong>Alaska and Hawaii</strong></span>
 										<li><strong>Order Total</strong><span class="shipping-charge"><strong>Charge</strong></span></li>
 										<li>Up to $15<span class="shipping-charge">$25.00</span></li>
 										<li>$15.01 - $25.00<span class="shipping-charge">$27.00</span></li>
@@ -146,6 +145,7 @@
 					</div><!--main privacy policy-->
 				</div>
 			</div>
+		</div>
 	</section>
 	
 <?php include ("includes/footer.php"); ?>

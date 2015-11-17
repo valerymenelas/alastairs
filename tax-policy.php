@@ -28,7 +28,7 @@
 								<div class="panel-heading">
 									<h4 class="panel-title">
 										<a data-toggle="collapse" data-parent="#accordian" class="menu-active">
-											<span class="badge pull-right"><i class="fa fa-plus"></i></span></span>
+											<span class="badge pull-right"><i class="fa fa-plus"></i></span>
 											Policies
 										</a>
 									</h4>
@@ -46,7 +46,6 @@
 								</div>
 							</div>
 						</div><!--/category-products-->
-						
 					</div>
 				</div>
 				
@@ -72,7 +71,7 @@
 								</div>
 							</div>
 
-						<h2 class="title text-center">How Sales Tax is Calculated</h3>
+						<h2 class="title text-center">How Sales Tax is Calculated</h2>
 							<p class="paragraph">If an item is subject to sales tax in the state to which the order is shipped, tax is generally calculated on the total selling price of each individual item. In accordance with state tax laws, the total selling price of an item will generally include item-level shipping and handling charges, item-level discounts, gift-wrap charges, and an allocation of order-level shipping and handling charges and order-level discounts. </p>
 							<p class="paragraph">The amount of tax charged on your order will depend upon many factors including Identity of the seller, type of item purchased, and destination of the shipment. Factors can change between the time you place an order and the time of credit card charge authorization, which could affect the calculation of sales taxes. The amount appearing on your order as Estimated Tax may differ from the sales taxes ultimately charged. </p>
 
@@ -116,6 +115,7 @@
 					</div><!--main privacy policy-->
 				</div>
 			</div>
+		</div>	
 	</section>
 	
 <?php include ("includes/footer.php"); ?>

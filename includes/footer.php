@@ -39,8 +39,7 @@
 								<li><a href="terms.php">Terms and Conditions</a></li>
 							</ul>
 						</div>
-					</div>
-								
+					</div>			
 				</div>
 			</div>
 		</div>

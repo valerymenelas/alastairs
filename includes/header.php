@@ -58,7 +58,7 @@ ob_start();session_start();//session
 				<div class="row">
 					<div class="col-sm-4">
 						<div class="logo pull-left">
-							<a href="home.php"><img src="img/home/logo.png" alt="Alastair's" /></a>
+							<a href="home.php"><img src="img/home/logo.png" alt="Alastair's"/></a>
 						</div>
 					</div>
 					<div class="col-sm-8">
@@ -120,7 +120,7 @@ ob_start();session_start();//session
 					<div class="col-sm-12">
 						<div class="search_box pull-right">
 							<form method="get" action="search.php" enctype="multipart/form-data">
-								<input type="text" name="user_query" placeholder="Search a Product" class="search-input"/ > 
+								<input type="text" name="user_query" placeholder="Search a Product" class="search-input"/> 
 								<input type="submit" name="search" ID="search-icon" value="Go" class="search-button"/>
 							</form>
 						</div>
@@ -129,3 +129,4 @@ ob_start();session_start();//session
 			</div>
 		</div><!--/header-bottom-->
 	</header><!--/header-->
+	

@@ -9,7 +9,6 @@
 							<img src="img/home/main_banner.png" alt="Welcome to Alastair's" />							
 						</div>
 					</div>
-					
 				</div>
 			</div>
 		</div>

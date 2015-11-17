@@ -4,22 +4,22 @@ if($_SESSION['login'] != 'Admin') { header('location:admin_login.php'); }
 ?>
 
   
-    <div class="container">
+<div class="container">
     <nav role="navigation" class="navbar navbar-default">
-    <!-- Brand and toggle get grouped for better mobile display -->
-    
-    <!-- Collection of nav links and other content for toggling -->
-    <div id="navbarCollapse" class="collapse navbar-collapse">
-        <ul class="nav navbar-nav">
-            <li><a href="view_user.php">View User</a></li>
-            <li><a href="view_product.php">View Product</a></li>
-            <li class="active"><a href="add_product.php">Add Product</a></li>
-        </ul>
-        <ul class="nav navbar-nav navbar-right">
-            <li><a href="admin_logout.php">Logout</a></li>
-        </ul>
-    </div>
-</nav>
+        <!-- Brand and toggle get grouped for better mobile display -->
+        
+        <!-- Collection of nav links and other content for toggling -->
+        <div id="navbarCollapse" class="collapse navbar-collapse">
+            <ul class="nav navbar-nav">
+                <li><a href="view_user.php">View User</a></li>
+                <li><a href="view_product.php">View Product</a></li>
+                <li class="active"><a href="add_product.php">Add Product</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="admin_logout.php">Logout</a></li>
+            </ul>
+        </div>
+    </nav>
     
     <div class="bs-example">
     <?php
@@ -61,15 +61,15 @@ if($_SESSION['login'] != 'Admin') { header('location:admin_login.php'); }
             <div class="form-group">
                 <label for="inputEmail" class="control-label col-xs-2">Category:</label>
                 <div class="col-xs-10">
-                      <select name="category" class="form-control" required>
-                <option>Select</option>
-                <option value="art&walldecor">Art & Wall Décor</option>
-                <option value="lighting">Lighting</option>
-                <option value="rugs_curtains">Rugs & Curtains</option>
-                <option value="kitchen">Kitchen</option>
-                <option value="gifts">Gifts</option>
-                <option value="clocks">Clocks</option>
-            </select>
+                    <select name="category" class="form-control" required>
+                        <option>Select</option>
+                        <option value="art&walldecor">Art & Wall Décor</option>
+                        <option value="lighting">Lighting</option>
+                        <option value="rugs_curtains">Rugs & Curtains</option>
+                        <option value="kitchen">Kitchen</option>
+                        <option value="gifts">Gifts</option>
+                        <option value="clocks">Clocks</option>
+                    </select>
                 </div>
             </div>
             
@@ -88,48 +88,44 @@ if($_SESSION['login'] != 'Admin') { header('location:admin_login.php'); }
                 </div>
             </div>
             
-             <div class="form-group">
+            <div class="form-group">
                 <label for="inputPassword" class="control-label col-xs-2">Product Stock:</label>
                 <div class="col-xs-10">
                     <input type="text" class="form-control" id="inputPassword" name="stock" placeholder="Product stock" required>
                 </div>
             </div>
             
-             <div class="form-group">
+            <div class="form-group">
                 <label for="inputPassword" class="control-label col-xs-2">Product Cost:</label>
                 <div class="col-xs-10">
                     <input type="text" class="form-control" id="inputPassword" name="cost" placeholder="Product Cost" required>
                 </div>
             </div>
             
-              <div class="form-group">
+            <div class="form-group">
                 <label for="inputPassword" class="control-label col-xs-2">Product Weight:</label>
                 <div class="col-xs-10">
                     <input type="text" class="form-control" id="inputPassword" name="weight" placeholder="Product Weight" required>
                 </div>
             </div>
             
-            
             <div class="form-group">
                 <label for="inputPassword" class="control-label col-xs-2">Product Description:</label>
-                <div class="col-xs-10">
-                   
+                <div class="col-xs-10"> 
                     <textarea name="description" cols="1" rows="4" placeholder="Product Description" class="form-control" id="inputPassword" required></textarea>
                 </div>
             </div>
-            
-            
+             
             <div class="form-group">
                 <label for="inputPassword" class="control-label col-xs-2">Product Image:</label>
                 <div class="col-xs-10">
-                   
-  			<input type="file" class="form-control" id="inputPassword" name="image">                </div>
+  			       <input type="file" class="form-control" id="inputPassword" name="image">               
+                </div>
             </div>
             
              <div class="form-group">
                 <label for="inputPassword" class="control-label col-xs-2">Product Keywords:</label>
-                <div class="col-xs-10">
-                   
+                <div class="col-xs-10">    
                     <textarea name="productKeywords" cols="1" rows="4" placeholder="Product Keywords" class="form-control" id="inputPassword" required></textarea>
                 </div>
             </div>
@@ -139,6 +135,7 @@ if($_SESSION['login'] != 'Admin') { header('location:admin_login.php'); }
                     <button type="submit" class="btn btn-primary" name="add">Add product</button>
                 </div>
             </div>
+
             <?php if(isset($_POST['add']))
 			{
 				echo ' <div class="form-group">
@@ -148,12 +145,11 @@ if($_SESSION['login'] != 'Admin') { header('location:admin_login.php'); }
             </div>';
 				
 			} ?>
-            
-        
+              
     </form>
 </div>
       
-    </div>
+</div>
 
 	
 		

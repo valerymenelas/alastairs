@@ -8,47 +8,40 @@
 						<div class="panel-group category-products" id="accordian"><!--category-productsr-->
 							<div class="panel panel-default">
 								<div class="panel-heading">
-									<h4 class="panel-title">
-										<a data-toggle="collapse" data-parent="#accordian">
-											<span class="badge pull-right"></span>
-											<a href="art_wall_decor.php">Art & Wall Décor</a>
-										</a>
-									</h4>
-								</div>
-							</div>
-							
-							<div class="panel panel-default">
-								<div class="panel-heading">
-									<h4 class="panel-title">
-										<a data-toggle="collapse" data-parent="#accordian">
-											<span class="badge pull-right"></span>
-											Lighting
-										</a>
-									</h4>
+									<h4 class="panel-title category-title">Shop By Category</h4>
 								</div>
 							</div>
 							<div class="panel panel-default">
 								<div class="panel-heading">
-									<h4 class="panel-title"><a href="#">Rugs & Curtains</a></h4>
+									<h4 class="panel-title"><a href="art-wall-decor.php">Art & Wall Décor</a></h4>
 								</div>
 							</div>
 							<div class="panel panel-default">
 								<div class="panel-heading">
-									<h4 class="panel-title"><a href="#">Kitchen</a></h4>
+									<h4 class="panel-title"><a href="lighting.php">Lighting</a></h4>
 								</div>
 							</div>
 							<div class="panel panel-default">
 								<div class="panel-heading">
-									<h4 class="panel-title"><a href="#">Gifts</a></h4>
+									<h4 class="panel-title"><a href="rugs-curtains.php">Rugs & Curtains</a></h4>
 								</div>
 							</div>
 							<div class="panel panel-default">
 								<div class="panel-heading">
-									<h4 class="panel-title"><a href="#">Clocks</a></h4>
+									<h4 class="panel-title"><a href="kitchen.php">Kitchen</a></h4>
+								</div>
+							</div>
+							<div class="panel panel-default">
+								<div class="panel-heading">
+									<h4 class="panel-title"><a href="gifts.php">Gifts</a></h4>
+								</div>
+							</div>
+							<div class="panel panel-default">
+								<div class="panel-heading">
+									<h4 class="panel-title"><a href="clocks.php">Clocks</a></h4>
 								</div>
 							</div>
 						</div><!--/category-products-->
-						
 					</div>
 				</div>
 				
@@ -86,5 +79,7 @@
 					</div><!--features_items-->
 				</div>
 			</div>
+		</div>	
 	</section>
+
 <?php include ("includes/footer.php");?>
