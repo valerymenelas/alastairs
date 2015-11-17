@@ -34,7 +34,7 @@
     </tr>
     <tr>
         <td><label>ProductName</label></td>
-        <td><input type="text" name="product_name" value="Crocodile Shoes" /></td>
+        <td><input type="text" name="product_name" value="" /></td>
     </tr>
     <tr>
         <td><label>Product Quantity</label></td>
@@ -42,31 +42,31 @@
     </tr>
     <tr>
         <td><label>Product Amount</label></td>
-        <td><input type="text" name="product_amount" value="40.00" /></td>
+        <td><input type="text" name="product_amount" value="" /></td>
     </tr>
     <tr>
         <td><label>Payer First Name</label></td>
-        <td><input type="text" name="payer_fname" value="Mohamed" /></td>
+        <td><input type="text" name="payer_fname" value="" /></td>
     </tr>
     <tr>
         <td><label>Payer Last Name</label></td>
-        <td><input type="text" name="payer_lname" value="Asif" /></td>
+        <td><input type="text" name="payer_lname" value="" /></td>
     </tr>
     <tr>
         <td><label>Payer Address</label></td>
-        <td><input type="text" name="payer_address" value="Address of me" /></td>
+        <td><input type="text" name="payer_address" value="" /></td>
     </tr>
     <tr>
         <td><label>Payer City</label></td>
-        <td><input type="text" name="payer_city" value="City of me" /></td>
+        <td><input type="text" name="payer_city" value="" /></td>
     </tr>
     <tr>
         <td><label>Payer State</label></td>
-        <td><input type="text" name="payer_state" value="State of me" /></td>
+        <td><input type="text" name="payer_state" value="" /></td>
     </tr>    
     <tr>
         <td><label>Payer Zip</label></td>
-        <td><input type="text" name="payer_zip" value="123456" /></td>
+        <td><input type="text" name="payer_zip" value="" /></td>
     </tr>
     <tr>
         <td><label>Payer Country</label></td>
@@ -74,7 +74,7 @@
     </tr> 
     <tr>
         <td><label>Payer Email</label></td>
-        <td><input type="text" name="payer_email" value="asif18@asif18.com" /></td>
+        <td><input type="text" name="payer_email" value="" /></td>
     </tr>
     <tr>
         <td colspan="2" align="center"><input type="submit" name="submit" value="Submit" /></td>
