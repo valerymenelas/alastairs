@@ -19,7 +19,6 @@
                                     <div class="panel-body">
                                         <ul>
                                             <li><a href="member_tasks.php" class="menu-active">About Us</a></li>
-                                            <li><a href="faq.php">FAQs</a></li>
                                         </ul>
                                     </div>
                                 </div>

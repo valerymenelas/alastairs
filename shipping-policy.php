@@ -19,7 +19,6 @@
 									<div class="panel-body">
 										<ul>
 											<li><a href="contact-us.php">About Us</a></li>
-											<li><a href="faq.php">FAQs</a></li>
 										</ul>
 									</div>
 								</div>

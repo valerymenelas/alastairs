@@ -14,6 +14,7 @@
 		</div>
 	</div><!--/slider-->
 	
+	<section>
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-3">
@@ -168,5 +169,6 @@
 				</div>
 			</div>
 		</div>
+	</section>
 
 <?php include ("includes/footer.php"); ?>
