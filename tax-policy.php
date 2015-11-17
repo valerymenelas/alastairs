@@ -15,7 +15,7 @@
 										</a>
 									</h4>
 								</div>
-								<div id="sportswear" class="panel-collapse">
+								<div class="panel-collapse">
 									<div class="panel-body">
 										<ul>
 											<li><a href="contact-us.php">About Us</a></li>
@@ -33,7 +33,7 @@
 										</a>
 									</h4>
 								</div>
-								<div id="sportswear" class="panel-collapse">
+								<div class="panel-collapse">
 									<div class="panel-body">
 										<ul>
 											<li><a href="terms.php">Terms and Conditions</a></li>
