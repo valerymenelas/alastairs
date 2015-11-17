@@ -53,7 +53,7 @@
                     ?>
 					<div class="login-form"><!--login form-->
 						<h2>Login to your account</h2>
-						<form action="" method="post">
+						<form method="post">
 							<input name="txtUsername" type="text" placeholder="Username" />
                             <input name="txtPasswordL" type="password" placeholder="Password" />
 							<span>
@@ -116,7 +116,7 @@
                     ?>
 					<div class="signup-form"><!--sign up form-->
 						<h2>New User Signup!</h2>
-						<form action="" method="post">
+						<form method="post">
 							<input name="txtUsername" type="text" placeholder="Name"/>
 							<input name="txtEmail" type="email" placeholder="Email Address"/>
 							<input name="txtPassword" type="password" placeholder="Password"/>
