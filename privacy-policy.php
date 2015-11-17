@@ -18,7 +18,7 @@
 								<div class="panel-collapse">
 									<div class="panel-body">
 										<ul>
-											<li><a href="contact-us.php">About Us</a></li>
+											<li><a href="member_tasks.php">About Us</a></li>
 											<li><a href="faq.php">FAQs</a></li>
 										</ul>
 									</div>
